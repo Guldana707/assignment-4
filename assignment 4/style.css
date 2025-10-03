@@ -1,0 +1,92 @@
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*  Task 1 */
+.box {
+  min-width: 150px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Portfolio */
+.card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/*  Media Queries  */
+
+/* for mobile */
+@media (max-width: 576px) {
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .card {
+    font-size: 14px;
+  }
+}
+
+/* for tablet */
+@media (min-width: 577px) and (max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .card {
+    font-size: 15px;
+  }
+}
+
+/* for desktop */
+@media (min-width: 993px) {
+  body {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .card {
+    font-size: 16px;
+  }
+}
+.bg-primary {
+  background-color: #f8c8dc !important;
+  color: #333 !important;
+}
+
+.bg-success {
+  background-color: #add8e6 !important; 
+  color: #333 !important;
+}
+
+.bg-danger {
+  background-color: #d8b4fe !important; 
+  color: #333 !important;
+}
